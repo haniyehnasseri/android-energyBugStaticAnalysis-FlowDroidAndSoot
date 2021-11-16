@@ -1,0 +1,525 @@
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 2)-<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")-<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")/<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 2)/<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r1.<com.ushahidi.android.app.UshahidiSplashScreen: void startActivity(android.content.Intent)>($r2)-<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+SOURCE
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+Path:
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+virtualinvoke $r1.<com.ushahidi.android.app.UshahidiSplashScreen: void startActivity(android.content.Intent)>($r2)/<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 3)-<com.ushahidi.android.app.Ushahidi$1: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/IncidentsTab;")-<com.ushahidi.android.app.Ushahidi$1: void onClick(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/IncidentsTab;")/<com.ushahidi.android.app.Ushahidi$1: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 3)/<com.ushahidi.android.app.Ushahidi$1: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 4)-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 4)/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke $r1.<com.ushahidi.android.app.UshahidiSplashScreen: void startActivity(android.content.Intent)>($r2)-<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+SOURCE
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+Path:
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+virtualinvoke $r1.<com.ushahidi.android.app.UshahidiSplashScreen: void startActivity(android.content.Intent)>($r2)/<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 0)-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 0)/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 0)-<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 0)/<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r5.<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r6.<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r7.<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r0.<com.ushahidi.android.app.About: boolean onOptionsItemSelected(android.view.MenuItem)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$z0 = specialinvoke r0.<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>($r1)/<com.ushahidi.android.app.About: boolean onOptionsItemSelected(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 0)/<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 1)-<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")-<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 1)/<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r5.<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r6.<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r7.<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r0.<com.ushahidi.android.app.About: boolean onOptionsItemSelected(android.view.MenuItem)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$z0 = specialinvoke r0.<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>($r1)/<com.ushahidi.android.app.About: boolean onOptionsItemSelected(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 1)/<com.ushahidi.android.app.About: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)-<com.ushahidi.android.app.About$2: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r5.<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r6.<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+r0.<com.ushahidi.android.app.About$2: com.ushahidi.android.app.About this$0> = $r1/<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r6.<com.ushahidi.android.app.About$2: void onClick(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$r2 = r0.<com.ushahidi.android.app.About$2: com.ushahidi.android.app.About this$0>/<com.ushahidi.android.app.About$2: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)/<com.ushahidi.android.app.About$2: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 2)-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/About;")-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/About;")/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 2)/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r6, 2)-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r6, 2)/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke $r3.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r2, 1)-<com.ushahidi.android.app.Ushahidi$9: void onClick(android.content.DialogInterface,int)>
+SOURCE
+specialinvoke $r2.<android.content.Intent: void <init>()>()-<com.ushahidi.android.app.Ushahidi$9: void onClick(android.content.DialogInterface,int)>
+Path:
+specialinvoke $r2.<android.content.Intent: void <init>()>()/<com.ushahidi.android.app.Ushahidi$9: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r3.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r2, 1)/<com.ushahidi.android.app.Ushahidi$9: void onClick(android.content.DialogInterface,int)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 1)-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 1)/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>(r4, 1)-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r6.<android.content.Intent: void <init>()>()-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r6.<android.content.Intent: void <init>()>()/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+r4 = virtualinvoke $r6.<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>(r4, 1)/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r6, 2)-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r6, 2)/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>(r2)-<com.ushahidi.android.app.IncidentsTab: void goHome(android.content.Context)>
+SOURCE
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r1, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.IncidentsTab: void goHome(android.content.Context)>
+Path:
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r1, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.IncidentsTab: void goHome(android.content.Context)>
+virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>(r2)/<com.ushahidi.android.app.IncidentsTab: void goHome(android.content.Context)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 2)-<com.ushahidi.android.app.Ushahidi$7: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/About;")-<com.ushahidi.android.app.Ushahidi$7: void onClick(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/About;")/<com.ushahidi.android.app.Ushahidi$7: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 2)/<com.ushahidi.android.app.Ushahidi$7: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.IncidentsTab: void startActivity(android.content.Intent)>(r2)-<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>()>()-<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>()>()/<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+r2 = virtualinvoke $r3.<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")/<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+virtualinvoke r0.<com.ushahidi.android.app.IncidentsTab: void startActivity(android.content.Intent)>(r2)/<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)-<com.ushahidi.android.app.About$4: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r5.<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+r0.<com.ushahidi.android.app.About$4: com.ushahidi.android.app.About this$0> = $r1/<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r5.<com.ushahidi.android.app.About$4: void onClick(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$r4 = r0.<com.ushahidi.android.app.About$4: com.ushahidi.android.app.About this$0>/<com.ushahidi.android.app.About$4: void onClick(android.view.View)>
+$r3 = staticinvoke <com.ushahidi.android.app.About: android.content.Intent access$000(com.ushahidi.android.app.About)>($r4)/<com.ushahidi.android.app.About$4: void onClick(android.view.View)>
+r1 = $r0.<com.ushahidi.android.app.About: android.content.Intent i>/<com.ushahidi.android.app.About: android.content.Intent access$000(com.ushahidi.android.app.About)>
+return r1/<com.ushahidi.android.app.About: android.content.Intent access$000(com.ushahidi.android.app.About)>
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)/<com.ushahidi.android.app.About$4: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.IncidentsTab: void startActivityForResult(android.content.Intent,int)>($r3, 0)-<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")-<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")/<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+virtualinvoke r0.<com.ushahidi.android.app.IncidentsTab: void startActivityForResult(android.content.Intent,int)>($r3, 0)/<com.ushahidi.android.app.IncidentsTab: void onAddReport(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r3.<com.ushahidi.android.app.Ushahidi: void startActivity(android.content.Intent)>($r2)-<com.ushahidi.android.app.Ushahidi$5: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>()>()-<com.ushahidi.android.app.Ushahidi$5: void onClick(android.view.View)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>()>()/<com.ushahidi.android.app.Ushahidi$5: void onClick(android.view.View)>
+$r2 = virtualinvoke $r4.<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")/<com.ushahidi.android.app.Ushahidi$5: void onClick(android.view.View)>
+virtualinvoke $r3.<com.ushahidi.android.app.Ushahidi: void startActivity(android.content.Intent)>($r2)/<com.ushahidi.android.app.Ushahidi$5: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 0)-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 0)/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 5)-<com.ushahidi.android.app.Ushahidi$6: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/DeploymentSearch;")-<com.ushahidi.android.app.Ushahidi$6: void onClick(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/DeploymentSearch;")/<com.ushahidi.android.app.Ushahidi$6: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 5)/<com.ushahidi.android.app.Ushahidi$6: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 3)-<com.ushahidi.android.app.Ushahidi$2: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/IncidentsTab;")-<com.ushahidi.android.app.Ushahidi$2: void onClick(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/IncidentsTab;")/<com.ushahidi.android.app.Ushahidi$2: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 3)/<com.ushahidi.android.app.Ushahidi$2: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 2)-<com.ushahidi.android.app.Ushahidi$4: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/AddIncident;")-<com.ushahidi.android.app.Ushahidi$4: void onClick(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/AddIncident;")/<com.ushahidi.android.app.Ushahidi$4: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 2)/<com.ushahidi.android.app.Ushahidi$4: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)-<com.ushahidi.android.app.About$5: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+r0.<com.ushahidi.android.app.About$5: com.ushahidi.android.app.About this$0> = $r1/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r3.<com.ushahidi.android.app.About$5: void onClick(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$r2 = r0.<com.ushahidi.android.app.About$5: com.ushahidi.android.app.About this$0>/<com.ushahidi.android.app.About$5: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)/<com.ushahidi.android.app.About$5: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r6, 2)-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/About;")-<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r6.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/About;")/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r6, 2)/<com.ushahidi.android.app.Ushahidi: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 1)-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/AddIncident;")/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 1)/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 5)-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/About;")-<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/About;")/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.checkin.ListCheckin: void startActivityForResult(android.content.Intent,int)>($r4, 5)/<com.ushahidi.android.app.checkin.ListCheckin: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 4)-<com.ushahidi.android.app.Ushahidi$3: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/Settings;")-<com.ushahidi.android.app.Ushahidi$3: void onClick(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r2, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.Ushahidi$3: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>($r3, 4)/<com.ushahidi.android.app.Ushahidi$3: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivity(android.content.Intent)>(r2)-<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+SOURCE
+specialinvoke $r3.<android.content.Intent: void <init>()>()-<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+Path:
+specialinvoke $r3.<android.content.Intent: void <init>()>()/<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+r2 = virtualinvoke $r3.<android.content.Intent: android.content.Intent setClass(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/checkin/CheckinActivity;")/<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+virtualinvoke r0.<com.ushahidi.android.app.Ushahidi: void startActivity(android.content.Intent)>(r2)/<com.ushahidi.android.app.Ushahidi: void onAddReport(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>(r2)-<com.ushahidi.android.app.DashboardActivity: void goHome(android.content.Context)>
+SOURCE
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r1, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.DashboardActivity: void goHome(android.content.Context)>
+Path:
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r1, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.DashboardActivity: void goHome(android.content.Context)>
+virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>(r2)/<com.ushahidi.android.app.DashboardActivity: void goHome(android.content.Context)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onClickHome(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+virtualinvoke r0.<com.ushahidi.android.app.DashboardActivity: void goHome(android.content.Context)>(r0)/<com.ushahidi.android.app.DashboardActivity: void onClickHome(android.view.View)>
+virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>(r2)/<com.ushahidi.android.app.DashboardActivity: void goHome(android.content.Context)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)-<com.ushahidi.android.app.About$3: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+r0.<com.ushahidi.android.app.About$3: com.ushahidi.android.app.About this$0> = $r1/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+r0 := @this: com.ushahidi.android.app.About$3/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r4.<com.ushahidi.android.app.About$3: void onClick(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$r2 = r0.<com.ushahidi.android.app.About$3: com.ushahidi.android.app.About this$0>/<com.ushahidi.android.app.About$3: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)/<com.ushahidi.android.app.About$3: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r3.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 1)-<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>
+SOURCE
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Settings;")-<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>
+Path:
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r3.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 1)/<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+r0.<com.ushahidi.android.app.About$6: com.ushahidi.android.app.About this$0> = $r1/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r2.<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>(null, 0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$r3 = r0.<com.ushahidi.android.app.About$6: com.ushahidi.android.app.About this$0>/<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r3.<com.ushahidi.android.app.About: void startActivityForResult(android.content.Intent,int)>(r2, 1)/<com.ushahidi.android.app.About$6: void onClick(android.content.DialogInterface,int)>
+SINK END
+SINK
+virtualinvoke $r1.<com.ushahidi.android.app.UshahidiSplashScreen: void startActivity(android.content.Intent)>($r2)-<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+SOURCE
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Ushahidi;")-<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+Path:
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Ushahidi;")/<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+virtualinvoke $r1.<com.ushahidi.android.app.UshahidiSplashScreen: void startActivity(android.content.Intent)>($r2)/<com.ushahidi.android.app.UshahidiSplashScreen$1: void run()>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 1)-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SOURCE
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")-<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+Path:
+specialinvoke $r4.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+virtualinvoke r0.<com.ushahidi.android.app.ListIncidents: void startActivityForResult(android.content.Intent,int)>($r4, 1)/<com.ushahidi.android.app.ListIncidents: boolean applyMenuChoice(android.view.MenuItem)>
+SINK END
+SINK
+virtualinvoke r0.<com.ushahidi.android.app.DashboardActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0)-<com.ushahidi.android.app.DashboardActivity: void onSearchDeployments(android.view.View)>
+SOURCE
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/DeploymentSearch;")-<com.ushahidi.android.app.DashboardActivity: void onSearchDeployments(android.view.View)>
+Path:
+specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>(r0, class "Lcom/ushahidi/android/app/DeploymentSearch;")/<com.ushahidi.android.app.DashboardActivity: void onSearchDeployments(android.view.View)>
+virtualinvoke r0.<com.ushahidi.android.app.DashboardActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0)/<com.ushahidi.android.app.DashboardActivity: void onSearchDeployments(android.view.View)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onSearchDeployments(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+virtualinvoke r0.<com.ushahidi.android.app.DashboardActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0)/<com.ushahidi.android.app.DashboardActivity: void onSearchDeployments(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)-<com.ushahidi.android.app.About$1: void onClick(android.view.View)>
+SOURCE
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)-<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+Path:
+specialinvoke $r10.<android.content.Intent: void <init>(java.lang.String,android.net.Uri)>("android.intent.action.VIEW", $r9)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+r0.<com.ushahidi.android.app.About: android.content.Intent i> = $r10/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+specialinvoke $r15.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>(r0)/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About: void onCreate(android.os.Bundle)>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onStart()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onStart()>
+virtualinvoke $r0.<com.ushahidi.android.app.DashboardActivity: void onResume()>()/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.DashboardActivity: void onResume()>
+specialinvoke $r2.<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$6: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r3.<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$5: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r4.<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$3: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r5.<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$4: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r6.<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+return/<com.ushahidi.android.app.About$2: void <init>(com.ushahidi.android.app.About)>
+specialinvoke $r7.<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>($r0)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+r0.<com.ushahidi.android.app.About$1: com.ushahidi.android.app.About this$0> = $r1/<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>
+return/<com.ushahidi.android.app.About$1: void <init>(com.ushahidi.android.app.About)>
+virtualinvoke $r7.<com.ushahidi.android.app.About$1: void onClick(android.view.View)>(null)/<dummyMainClass: com.ushahidi.android.app.About dummyMainMethod_com_ushahidi_android_app_About(android.content.Intent)>
+$r2 = r0.<com.ushahidi.android.app.About$1: com.ushahidi.android.app.About this$0>/<com.ushahidi.android.app.About$1: void onClick(android.view.View)>
+virtualinvoke $r2.<com.ushahidi.android.app.About: void startActivity(android.content.Intent)>($r3)/<com.ushahidi.android.app.About$1: void onClick(android.view.View)>
+SINK END
+SINK
+virtualinvoke $r3.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>(r2, 1)-<com.ushahidi.android.app.Ushahidi$10: void onClick(android.content.DialogInterface,int)>
+SOURCE
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Settings;")-<com.ushahidi.android.app.Ushahidi$10: void onClick(android.content.DialogInterface,int)>
+Path:
+specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/ushahidi/android/app/Settings;")/<com.ushahidi.android.app.Ushahidi$10: void onClick(android.content.DialogInterface,int)>
+virtualinvoke $r3.<com.ushahidi.android.app.Ushahidi: void startActivityForResult(android.content.Intent,int)>(r2, 1)/<com.ushahidi.android.app.Ushahidi$10: void onClick(android.content.DialogInterface,int)>
+SINK END

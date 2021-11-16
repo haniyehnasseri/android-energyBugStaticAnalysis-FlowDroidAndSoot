@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/ActionBarTitleContainer">
+        <ImageButton android:src="@drawable/ushahidi_icon" android:onClick="onClickHome" android:contentDescription="@string/menu_home" style="@style/ActionBarTitle" />
+        <ImageView style="@style/ActionBarTitleSeparator" />
+        <TextView style="@style/ActionBarTitleText" />
+        <ImageButton android:id="@id/search_report_btn" android:visibility="gone" android:src="@drawable/actionbar_button" android:contentDescription="Send" style="@style/ActionBarTitle" />
+        <Button android:id="@id/perform_checkin_button" android:text="@string/btn_send" style="@style/ActionbarActionButton" />
+    </LinearLayout>
+    <ImageView style="@style/ActionBarSeparator" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:padding="20.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@drawable/title_color" android:id="@id/checkin_message_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkin_message" />
+            <EditText android:gravity="top" android:id="@id/checkin_message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/checkin_enter_msg_hint" android:lines="2" android:singleLine="false" android:autoText="true" />
+            <TextView android:textStyle="bold" android:textColor="@drawable/title_color" android:paddingBottom="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_location" />
+            <com.google.android.maps.MapView android:enabled="true" android:id="@id/checkin_location_map" android:clickable="true" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_below="@id/checkin_location" android:apiKey="@string/google_map_api_key" />
+            <TextView android:textStyle="bold" android:textColor="@drawable/title_color" android:gravity="center_horizontal" android:id="@id/latlon" android:paddingBottom="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textStyle="bold" android:textColor="@drawable/title_color" android:id="@id/checkin_selected_photo_label" android:paddingBottom="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkin_selected_photo" />
+            <ImageView android:id="@id/checkin_img_prev" android:paddingBottom="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+            <Button android:id="@id/upload_checkin_photo_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_add_photo" />
+            <TextView android:textStyle="bold" android:textColor="@drawable/title_color" android:id="@id/checkin_contact" android:paddingBottom="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkin_contact" />
+            <TextView android:textColor="@drawable/date_color" android:id="@id/checkin_lbl_firstname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_first_name" />
+            <EditText android:id="@id/checkin_firstname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/checkin_enter_firstname_hint" android:inputType="textPersonName|textCapWords" />
+            <TextView android:textColor="@drawable/date_color" android:id="@id/checkin_lbl_lastname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_last_name" />
+            <EditText android:id="@id/checkin_lastname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/checkin_enter_lastname_hint" android:inputType="textPersonName|textCapWords" />
+            <TextView android:textColor="@drawable/date_color" android:id="@id/txt_lbl_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/txt_email" />
+            <EditText android:id="@id/checkin_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/checkin_enter_email_hint" android:inputType="textEmailAddress" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

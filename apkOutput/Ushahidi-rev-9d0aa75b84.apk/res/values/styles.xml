@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarSeparator">
+        <item name="android:background">@color/title_separator</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="ActionBarTitle">
+        <item name="android:background">@drawable/title_button</item>
+        <item name="android:layout_width">@dimen/title_height</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ActionBarTitleContainer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:id">@id/title_container</item>
+        <item name="android:background">@drawable/ushahidi_android_titlebar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+    </style>
+    <style name="ActionBarTitleLogo">
+        <item name="android:id">@id/title_logo</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ActionBarTitleSeparator">
+        <item name="android:background">@color/title_separator</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ActionBarTitleSpring">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ActionBarTitleText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:id">@id/title_text</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ActionbarActionButton">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/actionbar_button</item>
+        <item name="android:layout_width">60.0dip</item>
+        <item name="android:layout_height">@dimen/actionbar_button_height</item>
+    </style>
+    <style name="BottomActionBarContainer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:id">@id/bottom_actionbar_container</item>
+        <item name="android:background">@drawable/ushahidi_android_titlebar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/bottom_actionbar_height</item>
+    </style>
+    <style name="BottomActionbarButton">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">@dimen/top_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="DashboardButton">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/icon_title</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Theme.D1" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.D1t" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/background_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.NoBackground" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/background_color</item>
+    </style>
+    <style name="TitleBarProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14.0dip</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+        <item name="android:layout_marginRight">15.0dip</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+</resources>

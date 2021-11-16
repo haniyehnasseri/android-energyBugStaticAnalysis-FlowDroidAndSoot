@@ -1,0 +1,10 @@
+ByeArrayOutputStream -> ushahidi (all)
+location -> ushahidi (all)
+Database -> ushahidi (all)
+cursor -> ushahidi (deploymentsearch - showresults())
+
+
+https://noidsirius.medium.com/
+
+
+osmand - vlc - osmdroid - ushahidi

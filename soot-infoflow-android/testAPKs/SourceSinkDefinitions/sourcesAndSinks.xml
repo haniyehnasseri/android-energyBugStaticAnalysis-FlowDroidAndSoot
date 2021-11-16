@@ -1,0 +1,18 @@
+<sinkSources>
+	<category id="NO_CATEGORY">
+		<method signature="&lt;android.app.Activity: void startActivity(android.content.Intent)&gt;">
+			<param index="0" type="android.content.Intent">
+				<accessPath isSource="false" isSink="true" />
+			</param>
+		</method>
+
+		<method signature="&lt;android.content.Intent: void <init>(android.content.Context,java.lang.Class)&gt;">
+			<param index="1" type="java.lang.Class">
+				<accessPath isSource="true" isSink="false" />
+			</param>
+		</method>
+
+
+
+	</category>
+</sinkSources>

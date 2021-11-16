@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout style="@style/ActionBarTitleContainer">
+            <ImageButton android:src="@drawable/ushahidi_icon" android:onClick="onClickHome" android:contentDescription="@string/menu_home" style="@style/ActionBarTitle" />
+            <ImageView style="@style/ActionBarTitleSeparator" />
+            <TextView style="@style/ActionBarTitleText" />
+            <ImageView style="@style/ActionBarTitleSeparator" />
+            <ImageButton android:id="@id/search_report_btn" android:src="@drawable/ic_title_search" android:onClick="onSearchDeployments" style="@style/ActionBarTitle" />
+        </LinearLayout>
+        <ImageView android:id="@id/menu_bar_separator" android:layout_below="@id/search_report_btn" style="@style/ActionBarSeparator" />
+        <ScrollView android:gravity="center" android:padding="25.0px" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/relativeLayout1" android:fadeScrollbars="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingRight="15.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/relativeLayout1">
+                <TextView android:id="@id/title" android:background="@drawable/ushahidi_android_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textStyle="bold" android:textColor="@drawable/date_color" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/version" />
+                <TextView android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textStyle="bold" android:textColor="@drawable/date_color" android:id="@id/welcome_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0px" android:text="@string/welcome_mgs" />
+                <TextView android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView android:id="@id/sky_bg" android:background="@drawable/about_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_menu_bar_separator" />
+    <LinearLayout android:id="@id/bottom_menu_bar_separator" android:layout_alignParentBottom="true" style="@style/BottomActionBarContainer">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="15.0">
+            <Button android:id="@id/team_link" android:text="@string/team" android:drawableTop="@drawable/actionbar_team" style="@style/BottomActionbarButton" />
+            <Button android:id="@id/media_link" android:text="@string/media" android:drawableTop="@drawable/actionbar_media" style="@style/BottomActionbarButton" />
+            <Button android:id="@id/twitter_link" android:text="@string/twitter" android:drawableTop="@drawable/actionbar_twitter" style="@style/BottomActionbarButton" />
+            <Button android:id="@id/facebook_link" android:text="@string/facebook" android:drawableTop="@drawable/actionbar_facebook" style="@style/BottomActionbarButton" />
+            <Button android:id="@id/contact_link" android:text="@string/contact" android:drawableTop="@drawable/actionbar_contact" style="@style/BottomActionbarButton" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

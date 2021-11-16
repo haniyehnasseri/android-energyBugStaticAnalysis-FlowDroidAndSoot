@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@drawable/black_color" android:gravity="center" android:id="@id/empty_list_for_reports" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty_reports" />
+    <com.ushahidi.android.app.ui.PullToRefreshListView android:id="@id/view_incidents" android:paddingLeft="5.0px" android:paddingTop="11.0px" android:paddingRight="5.0px" android:paddingBottom="70.0px" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="7.0px" android:paddingRight="9.0px" android:paddingBottom="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Spinner android:id="@id/incident_cat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/prompt_mesg" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

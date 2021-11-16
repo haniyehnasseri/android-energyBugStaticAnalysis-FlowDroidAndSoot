@@ -1,0 +1,258 @@
+    public  void analyzeUnitGraph(UnitGraph unitGraph, SootMethod sm){
+
+
+        for(Iterator<Unit> it = unitGraph.iterator(); it.hasNext();) {
+            
+            Unit unit = it.next();
+            System.out.println(unit);
+
+            for (ValueBox useBox : unit.getUseBoxes()) {
+
+                //if (useBox.getValue() instanceof AbstractInvokeExpr) {
+                //outSet.add((AbstractBinopExpr) useBox.getValue());
+                System.out.println("------------------>");
+                System.out.println(sm.getSignature());
+                //System.out.println(unit.getUseBoxes());
+                System.out.println(useBox);
+                    /*if(useBox instanceof IdentityRefBox){
+                        System.out.println("Hellllooooooooooooooooooooo");
+                        System.out.println(useBox.getValue().toString());
+                    }*/
+                if(useBox.getValue() instanceof AbstractInvokeExpr){
+                    SootMethod sm1 = ((AbstractInvokeExpr) useBox.getValue()).getMethod();
+                    //List<ValueBox> a = useBox.getValue().getUseBoxes();
+
+                    System.out.println(sm1);
+
+                    //((AbstractInvokeExpr) useBox.getValue()).getArg(4);
+                    List<Value> args = ((AbstractInvokeExpr) useBox.getValue()).getArgs();
+                    System.out.println(args );
+                    for(Value arg: args){
+                        System.out.println("*******");
+                        if(arg instanceof Local){
+                            System.out.println(((Local) arg).getName());
+                        }
+                        System.out.println(arg.getUseBoxes());
+                        System.out.println(arg.toString());
+                        System.out.println(Scene.v().getSootClass(arg.getType().toString()).getName());
+                        System.out.println(Scene.v().getSootClass(arg.getType().toString()).implementsInterface("android.location.LocationListener"));
+                        System.out.println(Scene.v().getSootClass(arg.getType().toString()).getSuperclass());
+                        System.out.println("********************");
+                    }
+                    //((AbstractInvokeExpr) useBox.getValue()).getArgBox(3);
+                }
+                //System.out.println(useBox.getValue() instanceof AbstractInvokeExpr);
+                //System.out.println(unit);
+                System.out.println("...................>");
+                //}
+            }
+            /*if (unit instanceof JInvokeStmt){
+                System.out.println("------------------>");
+                System.out.println(sm.getSignature());
+                System.out.println(unit.getUseBoxes());
+                System.out.println(((JInvokeStmt) unit).getInvokeExpr().getMethod().getSignature());
+                System.out.println(unit);
+                System.out.println("...................>");
+
+            }*/
+            //System.out.println(unit);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //System.out.println(callbackMethods);
+
+
+
+        /*   for(SootMethod sm: Scene.v().getEntryPoints()){
+            //System.out.println(sm.getSignature());
+
+
+
+            //System.out.println(sc.getMethod("void sendMessage(android.view.View)").getSource());
+            haniyehUtil.getInstance().showPathsCallGraph(cg, sm, sm.getSignature());
+            ug = new ClassicCompleteUnitGraph(sm.getActiveBody());
+            //haniyehUtil.getInstance().analyzeUnitGraph(ug);
+        }
+
+        for(String p : haniyehUtil.getInstance().paths){
+            if(p.contains("onClick"))
+                System.out.println(p);
+        }*/
+
+
+        //System.out.println(paths.get(0));
+
+
+        // Iterate over the callgraph
+        //CallGraph cg = Scene.v().getCallGraph();
+        //for (Iterator<Edge> edgeIt = cg.iterator(); edgeIt.hasNext(); ) {
+        //    Edge edge = edgeIt.next();
+        //}
+
+
+
+            //dummyMainMethod_com_example_myapplication_MainActivity"
+            /*if (edge.src() != null && edge.src().getSignature().equals("<android.app.Activity: void startActivity(android.content.Intent)>")
+            ){
+                System.out.println("1111");
+                Unit uSrc = edge.srcStmt();
+                System.out.println(uSrc);
+                //Iterator<Edge> e = cg.edgesOutOf(uSrc);
+                for (Iterator<Edge> e = cg.edgesOutOf(uSrc); e.hasNext(); )
+                {
+                    Edge ee = e.next();
+                    System.out.println(ee);
+
+                }*/
+
+                //SootMethod smSrc = edge.src();
+                /*for (Iterator<Edge> t = cg.edgesOutOf(edge.getSrc()); t.hasNext();){
+                    Edge ed = edgeIt.next();
+                    System.out.println(ed.tgt());
+                }*/
+
+        //System.out.println(edge.tgt());
+
+        //}
+            /*SootMethod smSrc = edge.src();
+            Unit uSrc = edge.srcStmt();
+            SootMethod smDest = edge.tgt();
+
+
+            System.out.println("Edge from " + uSrc + " in " + smSrc + " to " + smDest );*/
+            /*if (smSrc.getDeclaringClass().hasSuperclass()){
+                System.out.println("src class" + smSrc.getDeclaringClass().getType());
+            }*/
+        /*}
+    }
+}}
+
+         */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*public void showPathsCallGraph(CallGraph cg, SootMethod sm, String currentPath){
+        if(currentPath.split("------->").length > 8){
+            paths.add(currentPath);
+            return;
+        }
+        Iterator<Edge> children = cg.edgesOutOf(sm);
+        int size = Iterators.size(children);
+        if(size == 0){
+            paths.add(currentPath);
+            return;
+        }
+
+        for(Iterator<Edge> it = cg.edgesOutOf(sm); it.hasNext(); ){
+            Edge child = it.next();
+            String ss="";
+            InvokeStmt st = null;
+            if(child.tgt() != null)
+                showPathsCallGraph(cg, child.tgt(), currentPath + "------->" + child.tgt().getSignature());
+
+        }
+
+    }*/

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/loc_map_layout" android:paddingLeft="10.0px" android:paddingTop="50.0px" android:paddingRight="10.0px" android:paddingBottom="15.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@drawable/date_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/instructions" />
+        <com.google.android.maps.MapView android:enabled="true" android:id="@id/location_map" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" android:apiKey="@string/google_map_api_key" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="3.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <Button android:id="@id/btn_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_save" />
+        <Button android:id="@id/btn_find" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_find" />
+        <Button android:id="@id/btn_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_reset" />
+    </LinearLayout>
+</RelativeLayout>

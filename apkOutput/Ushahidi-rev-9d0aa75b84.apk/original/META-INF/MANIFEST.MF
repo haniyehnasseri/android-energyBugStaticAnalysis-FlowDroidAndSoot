@@ -1,0 +1,460 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 2.2.1
+
+Name: res/drawable/dashboard_btn_add_checkin.xml
+SHA1-Digest: +4OdW6R72U4OhtmkTbdkGeGFmaY=
+
+Name: res/drawable-hdpi-v4/actionbar_twitter.png
+SHA1-Digest: SmpPfaWV+3RVAbLZXle8fvsYf0s=
+
+Name: res/layout/report_tab.xml
+SHA1-Digest: 6Fg139EYbAj1aibtvI4prYdeubo=
+
+Name: res/layout/image_previewer.xml
+SHA1-Digest: wyqKhR3ZzU+nmkYbbCtHiWadgeo=
+
+Name: res/drawable-mdpi-v4/actionbar_twitter.png
+SHA1-Digest: fBrSIRLuQzep/Io2txBknMafE28=
+
+Name: res/drawable/ushahidi_android_sky_background.png
+SHA1-Digest: 6t1wR6jEguHOAVMGv7uf6WCa9DI=
+
+Name: res/drawable-hdpi-v4/actionbar_button.9.png
+SHA1-Digest: yrs/sOUD6oQ5RosXJ/OH4flOFbc=
+
+Name: res/drawable/ushahidi_icon.png
+SHA1-Digest: 2M0tCO640rvem1cnVNePc9KamuI=
+
+Name: res/drawable/refresh_icon.xml
+SHA1-Digest: rf0kDe8L6gDySPyhnyG7OGkhoq0=
+
+Name: res/drawable/alert_dialog_icon.png
+SHA1-Digest: cAR6AyNxhSULWXZzFKYObPjRwB0=
+
+Name: res/drawable/green_dot.png
+SHA1-Digest: DoW/oVqAY2YDNHK3nmDKRa2dN48=
+
+Name: res/drawable-hdpi-v4/btn_bg_pressed.9.png
+SHA1-Digest: cBbIPjf8kWxe2oHUXbg+QT7zrgQ=
+
+Name: res/drawable-hdpi-v4/actionbar_media.png
+SHA1-Digest: nctiJFom/xNGeQlcBtK+QroCTmQ=
+
+Name: res/layout/deployment_list.xml
+SHA1-Digest: YEx3AmKWXJookxguzR9tDtkc47M=
+
+Name: res/drawable/home_btn.xml
+SHA1-Digest: 9m7BU9c9leoRkLHTCtyYIF1dSjc=
+
+Name: res/drawable-mdpi-v4/ushahidi_icon.png
+SHA1-Digest: 2M0tCO640rvem1cnVNePc9KamuI=
+
+Name: res/drawable/refresh_icon_light.xml
+SHA1-Digest: 7hXgQmlZsVDuGwKAkqwXVyan6YE=
+
+Name: res/drawable-mdpi-v4/actionbar_media.png
+SHA1-Digest: /TyhIoyOxi77lpI6FNs0kXkpEnk=
+
+Name: res/drawable-hdpi-v4/actionbar_team.png
+SHA1-Digest: A/iB5jpOwMWyXc2NHE+uQ0bqpbY=
+
+Name: res/layout/balloon_map_overlay.xml
+SHA1-Digest: Mhl3anYRXJbD60rqlfVCPwd/B80=
+
+Name: res/drawable/dashboard_btn_settings.xml
+SHA1-Digest: AP3l1KwNmWF+kFjEpqjQ3kFdhKo=
+
+Name: res/layout/deployment_search.xml
+SHA1-Digest: S0HD14dakTbj5E91beiBwaokM8s=
+
+Name: res/drawable-mdpi-v4/bg_camera_pattern.png
+SHA1-Digest: GzfRg7dzby7KuDRhLdA8P4/zhig=
+
+Name: res/drawable/ushahidi_refresh.png
+SHA1-Digest: VLEX1uhZQd0g+9EKYxd8J3R4jsg=
+
+Name: res/drawable-hdpi-v4/report_share_default.png
+SHA1-Digest: Q10oh4r9vweLVF/zLsJ7fHZHmgc=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_add_selected.png
+SHA1-Digest: M/rkpzmH+VyfI7aSsEvlR/V5XH0=
+
+Name: res/drawable-hdpi-v4/btn_ic_camera_shutter.png
+SHA1-Digest: c5le7jUWAlfgzUqxQOv/7HhuC6A=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_list_default.png
+SHA1-Digest: mylnYavIYOgz3hlhTBAG7PIwu9w=
+
+Name: res/layout/settings.xml
+SHA1-Digest: J4hN2o2VRDq1sn66Cl+/PfOmKT4=
+
+Name: res/drawable/favicon.png
+SHA1-Digest: E7GVnxAG17Be0OIsxRcSsGJR5p8=
+
+Name: resources.arsc
+SHA1-Digest: HbnWOZTSBpKrFFK0WzlPG8U75+o=
+
+Name: res/drawable-mdpi-v4/ic_pulltorefresh_arrow.png
+SHA1-Digest: uZ57OxgbCKPwdJ1Pw41SOSS83Jw=
+
+Name: res/drawable-mdpi-v4/btn_ic_camera_shutter.png
+SHA1-Digest: xM19TYjYJCMgwfTxqF90jAJG1+8=
+
+Name: res/drawable-hdpi-v4/actionbar_add.png
+SHA1-Digest: e5pjjFoul8LrBHkxBoqvXod/Kts=
+
+Name: AndroidManifest.xml
+SHA1-Digest: U+djaMsLN/77eohLLnl7HDnu7O0=
+
+Name: res/drawable/balloon_overlay_focused.9.png
+SHA1-Digest: EQH76i89jq2dTI5N/xfng0tPYVE=
+
+Name: res/drawable-hdpi-v4/home_btn_alt.png
+SHA1-Digest: 1tEOKZkA5c1+gfAO3vmcOATPOPE=
+
+Name: res/drawable/dashboard_btn_add.xml
+SHA1-Digest: /slc5DK+HWZlGqnTtJJVMFGlrxU=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_about_default.png
+SHA1-Digest: GJ/RJIYng7x+/zi5BaX0M/xw61I=
+
+Name: res/drawable/balloon_overlay_close.png
+SHA1-Digest: lvere58/uTHUGlIFJNEzfuL9wWw=
+
+Name: res/drawable/dashboard_btn_search.xml
+SHA1-Digest: sYJIg8sjO8uXfpnn0xv+Z2Ltn/Y=
+
+Name: res/drawable-hdpi-v4/actionbar_contact.png
+SHA1-Digest: ldChnNLLB9XbHdsVbwbWGWY/9QI=
+
+Name: res/drawable-hdpi-v4/btn_bg_selected.9.png
+SHA1-Digest: rUWHFdUjRMvSqJVSQXOnMCfhJuc=
+
+Name: res/drawable/ushahidi_tab_checkin_unselected.png
+SHA1-Digest: Ez+nJ/A3YwkMOrFlN4KXIqrfLbg=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_about_pressed.png
+SHA1-Digest: G7mWoPFOXBkcFCNQupUOfCr4ubU=
+
+Name: res/layout/view_incidents.xml
+SHA1-Digest: fXJMZC/QY6OFO5USn/bLuej3HNY=
+
+Name: res/drawable/ushahidi_android_splash.png
+SHA1-Digest: I8adphndTLYxj3idMlboN3zCaEY=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: nP0Cw3uIQs7AKpTRkZfcUm3ICuQ=
+
+Name: res/drawable-hdpi-v4/ushahidi_icon.png
+SHA1-Digest: Ej93S+HShQbu6QKlH1dol26ydko=
+
+Name: res/drawable/marker.png
+SHA1-Digest: R3WzW3FyXCJAQc/lqH0Y43bzamw=
+
+Name: res/drawable-mdpi-v4/actionbar_contact.png
+SHA1-Digest: foJH/CxJdQCQCia0RkQ2c4JyoJ4=
+
+Name: res/drawable/ushahidi_tab_checkin_selected.png
+SHA1-Digest: Ez+nJ/A3YwkMOrFlN4KXIqrfLbg=
+
+Name: res/drawable-mdpi-v4/actionbar_facebook.png
+SHA1-Digest: nf3lPwasaoUeHz5fhRWkaElYQZs=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_search_selected.png
+SHA1-Digest: nACMwMEFi0jUP9mkuZYawaRe+ZQ=
+
+Name: res/drawable/ic_title_search.xml
+SHA1-Digest: JwTLokwT1HLVD++BPG8KMdywNag=
+
+Name: res/drawable/ushahidi_android_dashboard_background.png
+SHA1-Digest: 3y+aouznnysuWjJ3esOtbQacs7Y=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_map_selected.png
+SHA1-Digest: 4/uPamDWvMLGjVtICcXcug/+vjg=
+
+Name: res/layout/checkin.xml
+SHA1-Digest: eLzv2u5PDyPfUCiPkp8Yd6Z3i3U=
+
+Name: res/drawable-hdpi-v4/ic_pulltorefresh_arrow.png
+SHA1-Digest: inIoC9QpjOoR82ryCniMNN/cS6E=
+
+Name: res/drawable/pull_to_refresh_header_background.xml
+SHA1-Digest: 7Wee6uJDZERZo6DFNhaPe48drfs=
+
+Name: res/drawable/ushahidi_about.png
+SHA1-Digest: zw/qW/m5LeYUSWZO1tyOxd1+auU=
+
+Name: res/layout/view_map.xml
+SHA1-Digest: 8j4GveFrDu7IN1CsJg9/cwVAwVc=
+
+Name: res/drawable-ldpi-v4/ic_pulltorefresh_arrow.png
+SHA1-Digest: m+X4qKbYJ5J1sLXz57KzdwzDMW0=
+
+Name: res/drawable/balloon_overlay_bg_selector.xml
+SHA1-Digest: c6gje6wEI3cPznG1j4tG30lEXAY=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_settings_selected.png
+SHA1-Digest: vw7R2Wg5jQxjiuaYps5RAcysjf8=
+
+Name: res/drawable/title_search.xml
+SHA1-Digest: nCnBdRkvTDWVe1DOFWIXmZKGW04=
+
+Name: res/drawable-ldpi-v4/ushahidi_icon.png
+SHA1-Digest: oHsCl+1XwnUEzeakX+PHGhN/I3g=
+
+Name: res/drawable/camera_background.xml
+SHA1-Digest: e3DUkfQ11tx1cpmgpbiiPLFc0nk=
+
+Name: res/drawable-mdpi-v4/actionbar_add.png
+SHA1-Digest: fnB453lBClP4YNNyqA6rYHQSC64=
+
+Name: res/drawable-hdpi-v4/btn_shutter_normal.png
+SHA1-Digest: xBr0DLetjDgyj4xLkBZh7nQb8fg=
+
+Name: res/layout/add_incident.xml
+SHA1-Digest: O9C3wCVt0f2MqXM2aTrDClJqhvA=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: res/layout/pull_to_refresh_header.xml
+SHA1-Digest: CklbYsYqxIvPhD1X47NqAhlz9H4=
+
+Name: res/layout/splash_screen.xml
+SHA1-Digest: 8bEmmqVH2LS9VpXHau6OFuJAo40=
+
+Name: res/drawable/ushahidi_tab_reports_selected.png
+SHA1-Digest: L3RGhL0X9MxZmGQrKR2dwYdCRL4=
+
+Name: res/layout/checkin_map.xml
+SHA1-Digest: CMBw1MfU2GfdtHtqMAYdH12vsc4=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_checkin_selected.png
+SHA1-Digest: 3aXzGA+HRxGnrsoITakSGmlNAis=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_settings_pressed.png
+SHA1-Digest: hZuUbieApn+G6G8aRFY6Eg0+1RU=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_checkin_default.png
+SHA1-Digest: wclBsI/m2D/17ZRPe3CN+fAQkgg=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_settings_default.png
+SHA1-Digest: zHYjmylhQ7Gk6OnsCzVCtfuwm+Y=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_checkin_pressed.png
+SHA1-Digest: W96Xu92uHRjVZvSXBBxgG2kUJc0=
+
+Name: res/drawable/ushahidi_android_titlebar.9.png
+SHA1-Digest: LplWjr9v2G9Wjhr4Gv5aY+HHr+w=
+
+Name: res/drawable/report_share_light.xml
+SHA1-Digest: 8p2SmBHPDRKjqrmthO3VcPtdO6k=
+
+Name: res/drawable/ic_title_search_light.xml
+SHA1-Digest: Llx8rIIi4pGzmoSLdhCt75uzeCk=
+
+Name: res/layout/incidents_map.xml
+SHA1-Digest: N/IP+5kfGBLhujHZIFC2BdsFyl0=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: Vj/qhxk8ic8FE0/kT6E3vgRJ4mE=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: BbP4A89gTYNCHy51Tn0q7TRdMqQ=
+
+Name: res/drawable/roundedcornershape.xml
+SHA1-Digest: 1T5BV2ziKFFgHKcIk/IMfNrm56c=
+
+Name: res/drawable/selected_deployment.png
+SHA1-Digest: Hk2wGcywWk83Q+yftvlnstdQP/o=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_search_default.png
+SHA1-Digest: NP/goNgmhcsTXSvjGDMFFTaaibs=
+
+Name: res/drawable/ushahidi_tab_map_selected.png
+SHA1-Digest: gxRq9kxaRKvLPZQsg49PP+EyJbc=
+
+Name: res/layout/about.xml
+SHA1-Digest: uOjhm3ty8Au/uMyoeNIJybFQU5g=
+
+Name: res/layout/list_checkins.xml
+SHA1-Digest: /YzxPU6QsplK0lPL6BWC79umfKU=
+
+Name: res/drawable/ushahidi_arrow.png
+SHA1-Digest: KGQSSQjTxTtRs3feAZPuZY+R8TI=
+
+Name: res/drawable/ushahidi_tab_map_unselected.png
+SHA1-Digest: gxRq9kxaRKvLPZQsg49PP+EyJbc=
+
+Name: res/drawable-mdpi-v4/actionbar_team.png
+SHA1-Digest: eoWB519Cbmed9OZ+qKXWorXN1Xw=
+
+Name: res/drawable/dashboard_btn_list.xml
+SHA1-Digest: anqlg6wjka8TgEzM8ldYIRVtqoE=
+
+Name: res/drawable-hdpi-v4/actionbar_facebook.png
+SHA1-Digest: FadgYu4Uv8th8TD+r9rDVrjBwVg=
+
+Name: res/drawable/ushahidi_home.png
+SHA1-Digest: nMnYRAzOIFrenyu/DK54Rj4kZ/k=
+
+Name: res/drawable-hdpi-v4/btn_shutter_pressed.png
+SHA1-Digest: CbA5FGmYcMkQDERelZDiDqgqIr4=
+
+Name: res/drawable/ushahidi_title.png
+SHA1-Digest: ZkZ4yU7+gljTFy2X3kyfFAtYfaM=
+
+Name: res/drawable/rectangleshape.xml
+SHA1-Digest: EhO5wgzd56dyGC+HDn196Bekb5k=
+
+Name: res/drawable/icon.png
+SHA1-Digest: pHkIZEiMr4hkLvOZC7qFvt4FdSo=
+
+Name: res/drawable-hdpi-v4/ic_title_refresh_alt.png
+SHA1-Digest: NWNTsWK8KsXMPyq+npkbPR0HMKY=
+
+Name: res/layout/incidents_list_text.xml
+SHA1-Digest: /jGoFcN1U08ogqRvK6ep2L1WjB0=
+
+Name: res/drawable/ushahidi_settings.png
+SHA1-Digest: WbBtrtT3S3sA3uoTOpPeAine5Vw=
+
+Name: res/drawable/ushahidi_map.png
+SHA1-Digest: IpxauBrpB4lbSekeATZiLkSEiHo=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_search_pressed.png
+SHA1-Digest: v77zdzZYX3pBzmBpx5/1i/OPwNQ=
+
+Name: res/drawable-hdpi-v4/title_search_alt.png
+SHA1-Digest: LkcNmyfwVOk2IvHTw2aK/l+FGmY=
+
+Name: res/drawable-hdpi-v4/ic_title_refresh_default.png
+SHA1-Digest: XurqNO4ukbZPTBSsW9fkms+8GzY=
+
+Name: res/drawable/ushahidi_list.png
+SHA1-Digest: JMWECK0cuF5rrBzVz77U+luaRXE=
+
+Name: res/drawable-hdpi-v4/home_btn_default.png
+SHA1-Digest: 12MIxwHTezPOwQaSuCytHXyI3t8=
+
+Name: res/drawable/dashboard_btn_about.xml
+SHA1-Digest: HJM19uGJjAzxF8CnOmGI54bUnZg=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_add_pressed.png
+SHA1-Digest: W9V8Dy0EXWpkV3FW6nFe865xfcU=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_about_selected.png
+SHA1-Digest: ceR1tRVbP7D+j3I6lU+UJQ3HHJ0=
+
+Name: res/drawable/report_share.xml
+SHA1-Digest: f2lDs7J2okq38kwck0A5Wv7RYS8=
+
+Name: res/drawable-hdpi-v4/ic_title_search_default.png
+SHA1-Digest: zP0Cx5Kf7yv9Hm1CQPMCTfZVwcs=
+
+Name: res/drawable/ushahidi_add.png
+SHA1-Digest: rHpD5aI9h0iumTg+7k5QE7pC+ZI=
+
+Name: res/menu/deployments_search_menu.xml
+SHA1-Digest: KS/x1huCSB4eFLzaapXrztd7DJA=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_list_selected.png
+SHA1-Digest: TL3gOpxgG6xON3oOwDMg9KtQd38=
+
+Name: res/layout/list_incidents.xml
+SHA1-Digest: MH0MF+z6bXvD6WL9UAzHEcTUwjg=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: i7vxaosoiS+9HzKB7ZgIsXMYRLY=
+
+Name: res/layout/add_deployment.xml
+SHA1-Digest: esYFOEnhPF3+h5AmEZK3Wqe5X3w=
+
+Name: res/drawable-hdpi-v4/dashdboard_btn_map_pressed.png
+SHA1-Digest: 1SIUbsPlJQii2Dqxt0EY+wVG9sk=
+
+Name: res/drawable/title_button.xml
+SHA1-Digest: tlyEwDk4Ytivoa/7eZjLlwWvLj0=
+
+Name: res/drawable/dashboard_btn_checkin.xml
+SHA1-Digest: 6DyS/YoQvuRHbyIM1oDj7uVnUzc=
+
+Name: res/drawable/title_search_light.xml
+SHA1-Digest: 8p2SmBHPDRKjqrmthO3VcPtdO6k=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_add_checkin_default.png
+SHA1-Digest: JHIaOWndPKzxDl75xS7A4Adi0R4=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_map_pressed.png
+SHA1-Digest: mqiTEgDaFZ0bQAzD4w6PlenE7tE=
+
+Name: res/drawable-hdpi-v4/ic_title_search_alt.png
+SHA1-Digest: LkcNmyfwVOk2IvHTw2aK/l+FGmY=
+
+Name: res/drawable/ushahidi_tab_reports_unselected.png
+SHA1-Digest: L3RGhL0X9MxZmGQrKR2dwYdCRL4=
+
+Name: res/layout/checkin_list_text.xml
+SHA1-Digest: uet/kIVKEvA1jI1pu/EePXU/Oto=
+
+Name: res/drawable/bg_camera_pattern.png
+SHA1-Digest: H7oI5WT7UH1AEqMNb3u5eK67R2k=
+
+Name: res/drawable-hdpi-v4/title_search_default.png
+SHA1-Digest: zP0Cx5Kf7yv9Hm1CQPMCTfZVwcs=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_add_checkin_selected.png
+SHA1-Digest: WPmPw9zO8IqsQ2yBHWDgmeQoYog=
+
+Name: res/drawable-hdpi-v4/report_share_alt.png
+SHA1-Digest: aG/vX+hkiPgg22MxQjS3vzOer94=
+
+Name: res/drawable/btn_shutter.xml
+SHA1-Digest: NUPGgn1bN3K4sR3xPqTYXE+STuA=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_add_checkin_pressed.png
+SHA1-Digest: mSrDfI8IpiTqUW0qRAk62W0fGWI=
+
+Name: res/drawable/dashboard_btn_map.xml
+SHA1-Digest: zgDXOupAQBG+yMtV48ChZexM4zc=
+
+Name: res/layout/main.xml
+SHA1-Digest: WDfnQkNOqQ9rgxtUNQ252w/eYR8=
+
+Name: res/layout/take_picture.xml
+SHA1-Digest: G7vcT+HvOX2lSAQmjgYTo0/vIng=
+
+Name: res/drawable-mdpi-v4/btn_shutter_normal.png
+SHA1-Digest: 3fj4i1fHpkqiHdzEJtKbc5JM0O4=
+
+Name: res/drawable/balloon_overlay_unfocused.9.png
+SHA1-Digest: 4RJhD8wA3I1L51q96OVRMGa85+E=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_map_default.png
+SHA1-Digest: YpwUSR0AU6Fq9yB4Eh3rSdd+XRk=
+
+Name: res/drawable-mdpi-v4/btn_shutter_pressed.png
+SHA1-Digest: CbA5FGmYcMkQDERelZDiDqgqIr4=
+
+Name: res/layout/view_checkins.xml
+SHA1-Digest: gZqxPN4rDj7WQaH8KlWHicFcvd8=
+
+Name: res/drawable/ushahidi_report_icon.png
+SHA1-Digest: SWd9k1zv1RmOatxvJSTAHLKq5K4=
+
+Name: res/drawable/ushahidi_android_logo.png
+SHA1-Digest: JehgifbiXamk0IZlr7y42k/XABI=
+
+Name: res/layout/deployment_search_result.xml
+SHA1-Digest: nZw+V9CzcmJ1tKureyPMP912jb8=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_list_pressed.png
+SHA1-Digest: 9Phz2JjVNjzb9qOSHMRWc0YYuHU=
+
+Name: classes.dex
+SHA1-Digest: 24CTu71Rp2BIZ4fkTeVhHSbomtQ=
+
+Name: res/drawable-hdpi-v4/dashboard_btn_add_default.png
+SHA1-Digest: 4TjQ5Uv8Lv4/xkEWdy2dTt4A8rs=
+

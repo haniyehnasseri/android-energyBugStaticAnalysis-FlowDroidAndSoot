@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="about_background">@drawable/ushahidi_android_sky_background</item>
+    <item type="drawable" name="actionbar_title_container_background">@drawable/ushahidi_android_titlebar</item>
+    <item type="drawable" name="background_color">#ffede7d1</item>
+    <item type="drawable" name="black_color">#ff000000</item>
+    <item type="drawable" name="dashboard_background">@drawable/ushahidi_android_dashboard_background</item>
+    <item type="drawable" name="date_color">#ff262321</item>
+    <item type="drawable" name="gray_color">#ff736f6e</item>
+    <item type="drawable" name="header_color">#ff3e51bc</item>
+    <item type="drawable" name="report_lable">#fff6f6ee</item>
+    <item type="drawable" name="thick_background_color">#ffddd0a3</item>
+    <item type="drawable" name="title_color">#ff7c2811</item>
+    <item type="drawable" name="verified_color">#ff25991c</item>
+    <item type="drawable" name="white_color">#ffffffff</item>
+</resources>

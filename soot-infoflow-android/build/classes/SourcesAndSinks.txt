@@ -1,0 +1,6 @@
+<android.os.PowerManager$WakeLock: void acquire()> -> _SOURCE_
+<android.os.PowerManager$WakeLock: void acquire(long)> -> _SOURCE_
+
+
+<android.os.PowerManager$WakeLock: void release()> -> _SINK_
+

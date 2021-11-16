@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/black_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/ActionBarSeparator" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/black_color" android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+        <ImageView style="@style/ActionBarTitleSeparator" />
+        <ImageButton android:src="@drawable/ushahidi_icon" android:onClick="onClickHome" android:contentDescription="@string/menu_home" style="@style/ActionBarTitle" />
+        <TextView style="@style/ActionBarTitleText" />
+        <ImageView style="@style/ActionBarTitleSeparator" />
+        <ImageButton android:id="@id/search_report_btn" android:src="@drawable/report_share" android:onClick="onShareClick" style="@style/ActionBarTitle" />
+        <ImageView style="@style/ActionBarTitleSeparator" />
+    </LinearLayout>
+    <ImageView style="@style/ActionBarSeparator" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Gallery android:gravity="center_vertical" android:id="@id/gallery" android:background="#55000000" android:layout_width="fill_parent" android:layout_height="60.0dip" android:spacing="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <ImageSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</LinearLayout>
